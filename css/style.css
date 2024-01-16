@@ -9,7 +9,95 @@ body{
   font-family: "Mulish", sans-serif;
 }
 
+/*Nav section here*/
+header{
+  margin:52px auto;
+}
+#nav-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 81%;
+}
+#nav-container .nav-title{
+  display: flex;
+  align-items: center;
+  gap:10px;
+}
+.nav-title svg{
+  max-width: 50px;
+}
+.nav-title p{
+  color: #131318;
+  font-weight: 800;
+  font-size: 35px;
+}
+.nav-title .nav-travel{
+  color: #FF5400;
+  font-weight: 800;
+  font-size: 35px;
+}
+#nav-container .nav-item{
+  display: flex;
+  gap:40px;
+}
+.nav-item li{
+  list-style: none;
+}
+.nav-item a{
+  text-decoration: none;
+  color:#424247;
+  font-style: 18px;
+}
+.nav-item .nav-home{
+  color: #FF5400;
+  font-weight: 700;
+}
 
+
+/*banner section*/
+.banner-container{
+  max-width: 81%;
+  margin:60px auto;
+background-repeat: no-repeat;
+background-size: cover;
+border-radius: 16px;
+background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/banner.png');
+background-repeat: no-repeat;
+background-size: cover;
+padding:103px 230px;
+}
+.banner-container .banner-title{
+color:#fff;
+font-size: 64px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-bottom: 20px;
+text-align: center;
+}
+.banner-container .banner-description{
+  color:#fff;
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+margin-bottom: 20px;
+}
+.banner-container .banner-item{
+  border-radius: 8px;
+background-color: rgba(255, 255, 255, 0.30);
+display: flex;
+gap:24px;
+padding:16px;
+}
+.banner-item #where,#when,#type{
+  border-radius: 8px;
+background: #FFF;
+padding:16px auto;
+}
 /*popular tour section starts here*/
 .btn-primary{
   color:#fff;
@@ -158,7 +246,7 @@ line-height: normal;
   padding-top:110px;
 }
 .footer-container .footer-title-container{
-  max-width: 17%;
+  max-width: 13%;
   margin:0 auto;
   display: flex;
   justify-content: center;

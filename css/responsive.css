@@ -1,6 +1,52 @@
 @media screen and (max-width:600px){
+  /*navbar section*/
+  #nav-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  #nav-container .nav-title{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    width:100%;
+  }
+ 
+  .nav-title p{
+    color: #131318;
+    font-weight: 800;
+    font-size: 35px;
+  }
+  .nav-title .nav-travel{
+    color: #FF5400;
+    font-weight: 800;
+    font-size: 35px;
+  }
+  #nav-container .nav-item{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    margin: 30px auto;
+    width:40%;
+    text-align: center;
+  }
+  .nav-item li{
+    list-style: none;
+  }
+  .nav-item a{
+    text-decoration: none;
+    color:#424247;
+    font-style: 25px;
+  }
+  .nav-item .nav-home{
+    color: #FF5400;
+    font-weight: 700;
+  }
+  /*popular section*/
   .popular-tour{
-    max-width: 81%;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     margin:0 auto;
@@ -13,15 +59,15 @@
   }
   .popular-tour-container .popular-tour-title{
     color: #131318;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 800;
   }
   .popular-tour-container p{
     color: rgba(19, 19, 24, 0.70);
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  margin:24px 0;
+  max-width: 90%;
   }
   .popular-tour-container ul{
     margin-left: 25px;
