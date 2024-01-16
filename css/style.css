@@ -93,10 +93,18 @@ display: flex;
 gap:24px;
 padding:16px;
 }
-.banner-item #where,#when,#type{
+#where,#when,#category ::placeholder{
   border-radius: 8px;
 background: #FFF;
-padding:16px auto;
+padding:16px;
+border:none;
+}
+.banner-item button{
+  border-radius: 8px;
+background: #FF5400;
+border:none;
+padding:16px;
+color:#fff;
 }
 /*popular tour section starts here*/
 .btn-primary{
@@ -219,7 +227,7 @@ background: #FF5400;
 max-width: 22.5%;
 padding:10px 15px;
 transform: rotate(-19.628deg);
-top:818px;
+top:1088px;
 left:915px;
 }
 .image-container .travel{

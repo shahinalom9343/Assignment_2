@@ -44,6 +44,58 @@
     color: #FF5400;
     font-weight: 700;
   }
+
+  /*banner section*/
+  .banner-container{
+    max-width: 100%;
+    margin:15px auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+  background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/banner.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding:35px 20px;
+  }
+  .banner-container .banner-title{
+  color:#fff;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-align: center;
+  }
+  .banner-container .banner-description{
+    color:#fff;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; 
+  }
+  .banner-container .banner-item{
+    border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.30);
+  flex-direction: column;
+  gap:16px;
+  padding:16px;
+  margin:24px auto;
+
+  }
+  #where,#when,#category ::placeholder{
+    border-radius: 8px;
+  background: #FFF;
+  padding:16px;
+  }
+  .banner-item button{
+    border-radius: 8px;
+  background: #FF5400;
+  border:none;
+  padding:16px;
+  color:#fff;
+  }
+
+
   /*popular section*/
   .popular-tour{
     max-width: 100%;
